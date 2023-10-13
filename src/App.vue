@@ -12,7 +12,7 @@ import { RouterLink, RouterView } from 'vue-router'
             <li>
               <RouterLink to="/weather" class="nav-link text-white" style="color: aqua;"> 
                   <img class="bi d-block mx-auto mb-1" src="@/assets/weather_head.png" alt="cart" width="24" height="24" >
-                  <p style="color:rgb(74, 75, 77) ;">ข้อมูล</p>
+                  <p style="color:rgb(74, 75, 77) ;">ข้อมูลสภาพอากาศ</p>
               </RouterLink>
             </li>
         </ul>
