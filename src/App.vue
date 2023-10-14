@@ -8,14 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <svg class="bi me-2" width="50" height="70"></svg>
         <span class="fs-3" style="color: black; " ><h2>พยากรณ์อากาศ</h2></span>
         </RouterLink>
-        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small ">
-            <li>
-              <RouterLink to="/weather" class="nav-link text-white" style="color: aqua;"> 
-                  <img class="bi d-block mx-auto mb-1" src="@/assets/weather_head.png" alt="cart" width="24" height="24" >
-                  <p style="color:rgb(74, 75, 77) ;">ข้อมูลสภาพอากาศ</p>
-              </RouterLink>
-            </li>
-        </ul>
+        
     </header>
 
     <div class="mainbd">
